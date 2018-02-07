@@ -91,7 +91,6 @@ footer a {
 @media screen and (min-width: 320px) {
 
 body {
-  overflow: hidden;
   text-align: center;
   width: 100%;
   margin: 0 auto;
