@@ -1,3 +1,141 @@
+/* NAVIGATION BAR */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: 999;
+}
+
+#profile-pic
+{
+  padding-top: 2.4em;
+  padding-bottom: 2em;
+  width: 220px;
+  height: 125px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #444;
+}
+
+header p {
+  color: #888;
+  line-height: 1.5;
+}
+
+/* BODY */
+
+img {
+  width: 300px;
+  height: 175px;
+}
+
+.alt-font, li a {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  color: #444;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #444;
+}
+
+.main-portfolio h2, p {
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+.main-portfolio h2 {
+  color: #555;
+  font-size: 16px;
+  padding-top: 1em;
+}
+
+.main-portfolio p {
+  color: #777;
+  line-height: 1.4;
+}
+
+#portfolio {
+  padding: 2em;
+  font-size: 16px;
+}
+
+/* FOOTER */
+header, footer {
+    background-color: hsla(0, 0%, 97%, 1);
+  }
+
+footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333
+}
+
+
+/* SMALL MOBILE SCREEN 320px */
+@media screen and (min-width: 320px) {
+
+  body {
+    text-align: center;
+  }
+
+  p {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+
+  /*MOBILE LIST*/
+
+  li a {
+    padding: 1px 100px;
+    display: block;
+    background-color: white;
+    padding: 12px;
+
+  }
+
+  li {
+    margin: 0 auto;
+    margin-bottom: 4px;
+    width: 300px;
+  }
+
+  .bottom-nav {
+  }
+
+  .bottom-nav h3 {
+    display: inline;
+    border: 1px solid red;
+  }
+
+}
+
+
+
+/* MEDIUM TABLET SCREEN 768px */
+@media screen and (min-width: 768px) {
+
+
+  p {
+
+  }
+
+}
+
+
+
+/* LARGE COMPUTER SCREEN 1024px+ */
 @media screen and (min-width:1024px) {
+
+  p {
+
+  }
 
 }
