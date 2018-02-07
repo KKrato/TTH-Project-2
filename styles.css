@@ -18,6 +18,10 @@ li a {
   height: 125px;
 }
 
+#home {
+  margin-top: 0;
+}
+
 h1 {
   font-family: 'Oswald', sans-serif;
   color: #444;
@@ -81,39 +85,43 @@ footer a {
 /* SMALL MOBILE SCREEN 320px */
 @media screen and (min-width: 320px) {
 
-  body {
-    text-align: center;
-  }
+body {
+  text-align: center;
+}
 
-  p {
-    width: 300px;
-    margin: 0 auto;
-    padding-bottom: 2em;
-  }
+p {
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
 
-  /*MOBILE LIST*/
+/*MOBILE LIST*/
 
-  li a {
-    padding: 1px 100px;
-    display: block;
-    background-color: white;
-    padding: 12px;
+li a {
+  padding: 1px 100px;
+  display: block;
+  background-color: white;
+  padding: 12px;
 
-  }
+}
 
-  li {
-    margin: 0 auto;
-    margin-bottom: 4px;
-    width: 300px;
-  }
+li {
+  margin: 0 auto;
+  margin-bottom: 4px;
+  width: 300px;
+}
 
-  .bottom-nav {
-  }
+/*MOBILE FOOTER*/
 
-  .bottom-nav h3 {
-    display: inline;
-    border: 1px solid red;
-  }
+.bottom-nav h3:first-child {
+  margin-right: 5em;
+  display: inline;
+}
+
+.bottom-nav h3:last-child {
+  margin-left: 5em;
+  display: inline;
+}
 
 }
 
